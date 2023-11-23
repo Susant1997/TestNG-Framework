@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="url" value="https://adactinhotelapp.com/"></parameter>
+	  <parameter name="uname" value="susant1997"></parameter>
+	  <parameter name="psw" value="December@06"></parameter>
+	  <classes>
+		  <class name="org.Parameters.TestParameters"></class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AdactTest.Addact_2_InvalidUsername"/>
+      <class name="AdactTest.Addact_1_Postive"/>
+      <class name="AdactTest.Addact_4_InvalidPass"/>
+      <class name="AdactTest.Addact_3_InvalidUsrnameSpecial"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
